@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0;
-    font-family: 'Roboto-bold', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .hero, .header {
@@ -11,6 +13,7 @@ body {
 .hero {
     display: flex;
     justify-content: space-between;
+    height: 500px;
 }
 
 .header {
@@ -69,6 +72,7 @@ body {
 
 .random {
     text-align: center;
+    height: 500px;
 }
 
 .random-title {
@@ -89,6 +93,33 @@ body {
 
 .text {
     margin-bottom: 52px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.quote-text {
+    padding: 50px 50px 10px;
+    font-size: 32px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 500px;
+}
+
+.quote-author {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-left: auto;
+    margin-right: 630px;
+    margin-bottom: 36px;
 }
 
 ul {
